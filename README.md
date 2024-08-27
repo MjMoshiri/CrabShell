@@ -10,3 +10,8 @@ A simple POSIX/Unix shell written in Rust.
 ```bash
 cargo run
 ```
+To display the current working directory before the command prompt, run the program with any argument: e.g.
+e.g.
+```bash
+cargo run -- debug
+```
